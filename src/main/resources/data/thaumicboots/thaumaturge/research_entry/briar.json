@@ -1,0 +1,56 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "floraferox"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.briar.title",
+  "parents": [
+    "thaumicboots:unique_boots"
+  ],
+  "column": -2,
+  "row": 1,
+  "icons": [
+    "thaumicboots:briar_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.briar.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.briar.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/briar_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

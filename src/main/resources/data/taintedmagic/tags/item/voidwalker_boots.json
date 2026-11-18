@@ -1,0 +1,109 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "thaumicboots:season_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:christmas_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:slow_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:comet_meteor_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:meteoric_comet_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:void_comet_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:void_meteor_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:electric_void_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:nano_void_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:quantum_void_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:electric_meteor_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:nano_meteor_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:quantum_meteor_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:electric_comet_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:nano_comet_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:quantum_comet_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:groundline_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:blastcatch_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:framewalker_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:verdant_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:briar_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:grim_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:lustral_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:rift_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:sloth_sin_boots",
+      "required": false
+    },
+    {
+      "id": "thaumicboots:spiritstep_boots",
+      "required": false
+    }
+  ]
+}

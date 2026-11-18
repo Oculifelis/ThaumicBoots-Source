@@ -1,0 +1,65 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe_arcana"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    }
+  ],
+  "catalyst": "fieldframe_arcana:galvanic_boots",
+  "components": [
+    "fieldframe:power_terminal",
+    "fieldframe:signal_alloy_ingot",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:potentia"
+        }
+      }
+    },
+    "thaumaturge:salis_mundus",
+    "fieldframe:charge_pad_redstone",
+    "fieldframe:signal_alloy_ingot",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:motus"
+        }
+      }
+    },
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumicboots:groundline"
+  },
+  "result": {
+    "id": "thaumicboots:groundline_boots"
+  }
+}

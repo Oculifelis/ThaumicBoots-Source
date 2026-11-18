@@ -1,0 +1,69 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchinggadgets"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicexploration"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.rift.title",
+  "parents": [
+    "thaumicboots:explorations_tainted_compat",
+    "witchinggadgets:primordial_armor"
+  ],
+  "column": 5,
+  "row": -2,
+  "icons": [
+    "thaumicboots:rift_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.rift.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.rift.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/rift_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:volatus",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

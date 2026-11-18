@@ -1,0 +1,55 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumaturge:crimson_boots",
+  "components": [
+    "thaumaturge:liquid_death_bucket",
+    "minecraft:wither_rose",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:mortuus"
+        }
+      }
+    },
+    "thaumaturge:salis_mundus",
+    "minecraft:soul_sand",
+    "minecraft:bone_block",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumicboots:grim"
+  },
+  "result": {
+    "id": "thaumicboots:grim_boots"
+  }
+}

@@ -1,0 +1,52 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Oculifelis, Alastors (original)"
+credits="Original Thaumic Boots (Thaumcraft 4 addon, GTNH fork) by Alastors, MIT licence. Thaumaturge by Leclowndu93150 and contributors. The boots it combines come from Electro-Magic Tools, Tainted Magic and Thaumic Exploration (each optional)."
+description='''
+A port of Thaumic Boots to Thaumaturge on NeoForge 26.1.2: combination boots of the Comet, Meteor and Voidwalker with
+electric, nano and quantum boots, plus seasonal boots, with keys to tune speed, jump, omni-movement, step assist and
+flight inertia.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="electromagictools"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="taintedmagic"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumicexploration"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

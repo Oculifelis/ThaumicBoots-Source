@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicexploration"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.explorations_compat.title",
+  "parents": [
+    "thaumicboots:core",
+    "thaumicboots:explorations_core"
+  ],
+  "column": 0,
+  "row": -2,
+  "icons": [
+    "thaumicboots:comet_meteor_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.explorations_compat.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.explorations_compat.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/comet_meteor_boots",
+        "thaumicboots:infusion/meteoric_comet_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

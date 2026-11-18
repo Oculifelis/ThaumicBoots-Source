@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forsakenmagic"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:slow_boots",
+  "components": [
+    "forsakenmagic:sloth_shard",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:vinculum"
+        }
+      }
+    },
+    "forsakenmagic:sloth_shard",
+    "thaumaturge:salis_mundus",
+    "forsakenmagic:sloth_shard",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:tenebrae"
+        }
+      }
+    },
+    "forsakenmagic:sloth_shard",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumicboots:sloth_sin"
+  },
+  "result": {
+    "id": "thaumicboots:sloth_sin_boots"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "values": {
+    "minecraft:leather_boots": [
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 2
+      }
+    ],
+    "minecraft:chainmail_boots": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 33
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 4
+      }
+    ],
+    "minecraft:iron_boots": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 33
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 4
+      }
+    ],
+    "minecraft:golden_boots": [
+      {
+        "aspect": "thaumaturge:metallum",
+        "amount": 25
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 8
+      }
+    ],
+    "minecraft:diamond_boots": [
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 45
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 45
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 16
+      }
+    ],
+    "thaumaturge:crimson_boots": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 6
+      }
+    ],
+    "thaumaturge:traveller_boots": [
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:volatus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumicboots:tabernus",
+        "amount": 12
+      }
+    ],
+    "minecraft:ender_pearl": [
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumicboots:caelum",
+        "amount": 4
+      }
+    ],
+    "minecraft:ender_eye": [
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumicboots:caelum",
+        "amount": 8
+      }
+    ],
+    "minecraft:blaze_powder": [
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumicboots:caelum",
+        "amount": 1
+      }
+    ],
+    "minecraft:blaze_rod": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumicboots:caelum",
+        "amount": 4
+      }
+    ]
+  }
+}

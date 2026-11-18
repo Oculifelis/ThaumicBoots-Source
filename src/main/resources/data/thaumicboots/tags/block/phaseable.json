@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "fieldframe:chassis",
+      "required": false
+    },
+    {
+      "id": "fieldframe:ender_tank_frame",
+      "required": false
+    },
+    {
+      "id": "fieldframe:ender_tank_glass",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:frame_casing",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:frame_core",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:frame_vault",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:frame_tank",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:frame_cell",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:frame_crucible",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:starcore_coil",
+      "required": false
+    },
+    {
+      "id": "fieldframe_frameworks:gantry_rail",
+      "required": false
+    },
+    {
+      "id": "fieldframe_transit:transit_tube",
+      "required": false
+    },
+    {
+      "id": "fieldframe_transit:tube_body",
+      "required": false
+    },
+    {
+      "id": "fieldframe_transit:tube_mouth",
+      "required": false
+    },
+    {
+      "id": "#c:glass_blocks",
+      "required": false
+    },
+    {
+      "id": "#c:glass_panes",
+      "required": false
+    }
+  ]
+}

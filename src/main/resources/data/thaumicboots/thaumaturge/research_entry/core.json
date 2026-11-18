@@ -1,0 +1,47 @@
+{
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.core.title",
+  "parents": [
+    "thaumaturge:metallurgy",
+    "thaumaturge:boots_traveller"
+  ],
+  "column": 0,
+  "row": 0,
+  "icons": [
+    "thaumicboots:arcanium_lens"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.core.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.core.stage_1",
+      "recipes": [
+        "thaumicboots:crucible/arcanium_lens"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

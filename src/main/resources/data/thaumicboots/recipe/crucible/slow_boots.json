@@ -1,0 +1,24 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 10
+    }
+  ],
+  "catalyst": "thaumaturge:traveller_boots",
+  "research": {
+    "entry": "thaumicboots:unique_boots"
+  },
+  "result": {
+    "id": "thaumicboots:slow_boots"
+  }
+}

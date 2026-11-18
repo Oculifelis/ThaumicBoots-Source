@@ -1,0 +1,69 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe_frameworks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 75
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:arcanium_lens",
+  "components": [
+    "#thaumicboots:inputs/voidwalker_boots",
+    "thaumaturge:salis_mundus",
+    "fieldframe_frameworks:frame_core",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:alienis"
+        }
+      }
+    },
+    "thaumaturge:traveller_boots",
+    "thaumaturge:salis_mundus",
+    "fieldframe_frameworks:frame_casing",
+    "fieldframe:ender_alloy_ingot"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumicboots:framewalker"
+  },
+  "result": {
+    "id": "thaumicboots:framewalker_boots"
+  }
+}

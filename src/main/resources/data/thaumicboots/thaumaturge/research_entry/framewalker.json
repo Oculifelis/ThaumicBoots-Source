@@ -1,0 +1,60 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe_frameworks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.framewalker.title",
+  "parents": [
+    "thaumicboots:tainted_core"
+  ],
+  "column": 5,
+  "row": 2,
+  "icons": [
+    "thaumicboots:framewalker_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.framewalker.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.framewalker.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/framewalker_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

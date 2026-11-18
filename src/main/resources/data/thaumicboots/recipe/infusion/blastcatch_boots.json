@@ -1,0 +1,77 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe_arcana"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicexploration"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 75
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:arcanium_lens",
+  "components": [
+    "thaumicboots:groundline_boots",
+    "thaumaturge:salis_mundus",
+    "fieldframe:blast_damper",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      }
+    },
+    "#thaumicboots:inputs/meteor_boots",
+    "thaumaturge:salis_mundus",
+    "fieldframe:storm_coil",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:potentia"
+        }
+      }
+    }
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumicboots:blastcatch"
+  },
+  "result": {
+    "id": "thaumicboots:blastcatch_boots"
+  }
+}

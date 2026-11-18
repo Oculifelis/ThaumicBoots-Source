@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumicboots:season",
+      "months": [
+        12
+      ]
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:gelum",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:season_boots",
+  "research": {
+    "entry": "thaumicboots:seasonal_stabilized"
+  },
+  "result": {
+    "id": "thaumicboots:christmas_boots"
+  }
+}

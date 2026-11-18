@@ -1,0 +1,1552 @@
+{
+  "values": {
+    "thaumicboots:season_boots": {
+      "movement": {
+        "speed": 0.165,
+        "jump": 0.35,
+        "long_running": 0.003,
+        "steady": true,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": true,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 3,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [],
+      "seasonal": {
+        "months": [
+          12
+        ],
+        "vis_discount": 6,
+        "long_running": 0.036000000000000004,
+        "equipment": "thaumicboots:christmas"
+      }
+    },
+    "thaumicboots:christmas_boots": {
+      "movement": {
+        "speed": 0.165,
+        "jump": 0.35,
+        "long_running": 0.003,
+        "steady": true,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": true,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 2,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        }
+      ],
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      },
+      "seasonal": {
+        "months": [
+          12
+        ],
+        "vis_discount": 9,
+        "long_running": 0.075
+      }
+    },
+    "thaumicboots:slow_boots": {
+      "movement": {
+        "speed": -0.035,
+        "jump": 0.0,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 0,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": []
+    },
+    "thaumicboots:comet_meteor_boots": {
+      "movement": {
+        "speed": 0.165,
+        "jump": 0.35,
+        "long_running": 0.003,
+        "steady": true,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": true,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 0,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        }
+      ],
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      },
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      }
+    },
+    "thaumicboots:meteoric_comet_boots": {
+      "movement": {
+        "speed": 0.165,
+        "jump": 0.35,
+        "long_running": 0.003,
+        "steady": true,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": true,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 0,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        }
+      ],
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      },
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      }
+    },
+    "thaumicboots:void_comet_boots": {
+      "movement": {
+        "speed": 0.645,
+        "jump": 0.45,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 5,
+        "tier": 3,
+        "self_repair_ticks": 20
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:witch",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true,
+          "in_water": true
+        }
+      ],
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      },
+      "ward": {
+        "magic": 0.0125,
+        "fire": 0.0125,
+        "explosion": 0.0125
+      }
+    },
+    "thaumicboots:void_meteor_boots": {
+      "movement": {
+        "speed": 0.3,
+        "jump": 0.88,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 5,
+        "tier": 3,
+        "self_repair_ticks": 20
+      },
+      "trails": [
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:witch",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true,
+          "in_water": true
+        }
+      ],
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      },
+      "ward": {
+        "magic": 0.0125,
+        "fire": 0.0125,
+        "explosion": 0.0125
+      }
+    },
+    "thaumicboots:electric_void_boots": {
+      "movement": {
+        "speed": 0.2,
+        "jump": 0.4675,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 7,
+        "runic_charge": 0,
+        "warp": 5,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:witch",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true,
+          "in_water": true
+        }
+      ],
+      "energy": {
+        "capacity": 800000,
+        "transfer": 3200,
+        "per_damage": 800,
+        "absorption": 2.25,
+        "base_absorption": 0.15
+      }
+    },
+    "thaumicboots:nano_void_boots": {
+      "movement": {
+        "speed": 0.55,
+        "jump": 0.7425,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 9,
+        "runic_charge": 0,
+        "warp": 5,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:witch",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true,
+          "in_water": true
+        }
+      ],
+      "energy": {
+        "capacity": 8000000,
+        "transfer": 19200,
+        "per_damage": 4000,
+        "absorption": 2.75,
+        "base_absorption": 0.15
+      }
+    },
+    "thaumicboots:quantum_void_boots": {
+      "movement": {
+        "speed": 1.25,
+        "jump": 1.0175,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 10,
+        "runic_charge": 0,
+        "warp": 5,
+        "tier": 4,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:witch",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true,
+          "in_water": true
+        }
+      ],
+      "energy": {
+        "capacity": 80000000,
+        "transfer": 192000,
+        "per_damage": 20000,
+        "absorption": 3.0,
+        "base_absorption": 0.15
+      }
+    },
+    "thaumicboots:electric_meteor_boots": {
+      "movement": {
+        "speed": 0.055,
+        "jump": 0.5225,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 2,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        }
+      ],
+      "energy": {
+        "capacity": 800000,
+        "transfer": 800,
+        "per_damage": 800,
+        "absorption": 1.25,
+        "base_absorption": 0.15
+      },
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      }
+    },
+    "thaumicboots:nano_meteor_boots": {
+      "movement": {
+        "speed": 0.275,
+        "jump": 0.7975,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 4,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        }
+      ],
+      "energy": {
+        "capacity": 8000000,
+        "transfer": 12800,
+        "per_damage": 4000,
+        "absorption": 1.5,
+        "base_absorption": 0.15
+      },
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      }
+    },
+    "thaumicboots:quantum_meteor_boots": {
+      "movement": {
+        "speed": 0.51,
+        "jump": 1.1,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 4,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        }
+      ],
+      "energy": {
+        "capacity": 80000000,
+        "transfer": 96000,
+        "per_damage": 20000,
+        "absorption": 2.0,
+        "base_absorption": 0.15
+      },
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      }
+    },
+    "thaumicboots:electric_comet_boots": {
+      "movement": {
+        "speed": 0.165,
+        "jump": 0.275,
+        "long_running": 0.003,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": false
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 2,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        }
+      ],
+      "energy": {
+        "capacity": 800000,
+        "transfer": 800,
+        "per_damage": 800,
+        "absorption": 0.5,
+        "base_absorption": 0.15
+      },
+      "comet_fall": {
+        "min_height": 4.0,
+        "min_distance": 20.0,
+        "distance_multiplier": 3.0
+      },
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      }
+    },
+    "thaumicboots:nano_comet_boots": {
+      "movement": {
+        "speed": 0.385,
+        "jump": 0.6325,
+        "long_running": 0.006,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": false
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 4,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        }
+      ],
+      "energy": {
+        "capacity": 8000000,
+        "transfer": 12800,
+        "per_damage": 4000,
+        "absorption": 1.5,
+        "base_absorption": 0.15
+      },
+      "comet_fall": {
+        "min_height": 6.0,
+        "min_distance": 35.0,
+        "distance_multiplier": 3.0
+      },
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      }
+    },
+    "thaumicboots:quantum_comet_boots": {
+      "movement": {
+        "speed": 0.73,
+        "jump": 0.9075,
+        "long_running": 0.009,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": false
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 4,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        }
+      ],
+      "energy": {
+        "capacity": 80000000,
+        "transfer": 96000,
+        "per_damage": 20000,
+        "absorption": 2.0,
+        "base_absorption": 0.15
+      },
+      "comet_fall": {
+        "min_height": 10.0,
+        "min_distance": 100.0,
+        "distance_multiplier": 3.0
+      },
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      }
+    },
+    "thaumicboots:groundline_boots": {
+      "movement": {
+        "speed": 0.3,
+        "jump": 0.5,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 4,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:electric_spark",
+          "every": 2,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "energy": {
+        "capacity": 400000,
+        "transfer": 1600,
+        "per_damage": 800,
+        "absorption": 1.5,
+        "base_absorption": 0.15
+      },
+      "powers": {
+        "ground_charge": {
+          "rate": 800
+        }
+      }
+    },
+    "thaumicboots:blastcatch_boots": {
+      "movement": {
+        "speed": 0.35,
+        "jump": 0.88,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:flame",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:smoke",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:flame",
+          "while_smashing": true
+        },
+        {
+          "particle": "minecraft:electric_spark",
+          "every": 2,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "energy": {
+        "capacity": 800000,
+        "transfer": 3200,
+        "per_damage": 800,
+        "absorption": 2.0,
+        "base_absorption": 0.15
+      },
+      "meteor": {
+        "air_ticks": 5,
+        "steps": [
+          5,
+          10,
+          15
+        ],
+        "pull": 0.1,
+        "dash": 1.0,
+        "dash_forward": 4.0,
+        "dash_up": 1.5
+      },
+      "powers": {
+        "ground_charge": {
+          "rate": 800
+        },
+        "blast_catch": {
+          "share": 0.75,
+          "fe_per_damage": 4000
+        },
+        "overcharge": {
+          "fe_per_power": 100000,
+          "max_power": 3
+        }
+      }
+    },
+    "thaumicboots:framewalker_boots": {
+      "movement": {
+        "speed": 0.4,
+        "jump": 0.6,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 3,
+        "tier": 3,
+        "self_repair_ticks": 20
+      },
+      "trails": [
+        {
+          "particle": "minecraft:portal",
+          "every": 2,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true
+        }
+      ],
+      "ward": {
+        "magic": 0.0125,
+        "fire": 0.0125,
+        "explosion": 0.0125
+      },
+      "powers": {
+        "phase": {
+          "blocks": "thaumicboots:phaseable",
+          "max_depth": 4,
+          "cooldown": 20
+        }
+      }
+    },
+    "thaumicboots:verdant_boots": {
+      "movement": {
+        "speed": 0.2,
+        "jump": 0.4,
+        "long_running": 0.004,
+        "steady": true,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": true,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 4,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:happy_villager",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "powers": {
+        "growth": {
+          "blocks": "thaumicboots:boot_growth",
+          "radius": 3,
+          "attempts": 2,
+          "chance": 0.15
+        }
+      }
+    },
+    "thaumicboots:briar_boots": {
+      "movement": {
+        "speed": 0.2,
+        "jump": 0.45,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": false
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 3,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:spore_blossom_air",
+          "every": 2,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "powers": {
+        "thorn_catch": {
+          "min_fall": 3.5,
+          "durability": 2,
+          "radius": 4.0,
+          "ticks": 80,
+          "amplifier": 2
+        },
+        "thorns": {
+          "damage": 2.0,
+          "chance": 1.0
+        }
+      }
+    },
+    "thaumicboots:grim_boots": {
+      "movement": {
+        "speed": 0.25,
+        "jump": 0.6,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": false
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 3,
+        "runic_charge": 0,
+        "warp": 1,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:soul",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "powers": {
+        "stomp": {
+          "min_fall": 2.0,
+          "damage_per_block": 1.5,
+          "max_damage": 20.0,
+          "radius": 0.5,
+          "wither_ticks": 100,
+          "wither_amplifier": 1,
+          "bounce": 0.6,
+          "durability": 1
+        }
+      }
+    },
+    "thaumicboots:lustral_boots": {
+      "movement": {
+        "speed": 0.2,
+        "jump": 0.35,
+        "long_running": 0.003,
+        "steady": true,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 6,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:end_rod",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "powers": {
+        "purify": {
+          "radius": 3,
+          "attempts": 4,
+          "conversions": [
+            {
+              "from": "thaumaturge:taint_soil",
+              "to": "minecraft:dirt"
+            },
+            {
+              "from": "thaumaturge:taint_rock",
+              "to": "minecraft:stone"
+            },
+            {
+              "from": "thaumaturge:taint_crust",
+              "to": "minecraft:coarse_dirt"
+            },
+            {
+              "from": "thaumaturge:taint_log",
+              "to": "minecraft:oak_log"
+            },
+            {
+              "from": "thaumaturge:taint_fibre",
+              "to": "minecraft:air"
+            },
+            {
+              "from": "thaumaturge:taint_feature",
+              "to": "minecraft:air"
+            },
+            {
+              "from": "thaumaturge:taint_spore_stalk",
+              "to": "minecraft:air"
+            },
+            {
+              "from": "thaumaturge:flux_goo",
+              "to": "minecraft:air"
+            },
+            {
+              "from": "forsakenmagic:taint_stone",
+              "to": "minecraft:stone"
+            },
+            {
+              "from": "forsakenmagic:taint_stone_bricks",
+              "to": "minecraft:stone_bricks"
+            },
+            {
+              "from": "forsakenmagic:taint_log",
+              "to": "minecraft:oak_log"
+            },
+            {
+              "from": "forsakenmagic:taint_wood",
+              "to": "minecraft:oak_wood"
+            },
+            {
+              "from": "forsakenmagic:taint_planks",
+              "to": "minecraft:oak_planks"
+            },
+            {
+              "from": "forsakenmagic:taint_leaves",
+              "to": "minecraft:oak_leaves"
+            },
+            {
+              "from": "forsakenmagic:taint_sapling",
+              "to": "minecraft:oak_sapling"
+            }
+          ],
+          "flux_every": 20,
+          "flux": 0.5
+        }
+      }
+    },
+    "thaumicboots:rift_boots": {
+      "movement": {
+        "speed": 0.645,
+        "jump": 0.6,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 8,
+        "runic_charge": 0,
+        "warp": 5,
+        "tier": 4,
+        "self_repair_ticks": 20
+      },
+      "trails": [
+        {
+          "particle": "minecraft:firework",
+          "every": 1,
+          "min_motion": 0.1,
+          "vertical_weight": 1.0
+        },
+        {
+          "particle": "minecraft:witch",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5,
+          "airborne": true,
+          "in_water": true
+        }
+      ],
+      "frost": {
+        "radius": 5,
+        "reach": 8
+      },
+      "ward": {
+        "magic": 0.0125,
+        "fire": 0.0125,
+        "explosion": 0.0125
+      },
+      "powers": {
+        "air_jumps": {
+          "count": 2,
+          "power": 0.55
+        }
+      }
+    },
+    "thaumicboots:sloth_sin_boots": {
+      "movement": {
+        "speed": 0.1,
+        "jump": 0.3,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 5,
+        "runic_charge": 0,
+        "warp": 2,
+        "tier": 3,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:squid_ink",
+          "every": 4,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "powers": {
+        "aura": {
+          "radius": 6.0,
+          "every": 20,
+          "hostile_only": true,
+          "effects": [
+            {
+              "effect": "minecraft:slowness",
+              "duration": 40,
+              "amplifier": 1
+            },
+            {
+              "effect": "minecraft:mining_fatigue",
+              "duration": 40,
+              "amplifier": 0
+            }
+          ]
+        }
+      }
+    },
+    "thaumicboots:spiritstep_boots": {
+      "movement": {
+        "speed": 0.25,
+        "jump": 0.4,
+        "long_running": 0.0,
+        "steady": false,
+        "step_height": 1.0,
+        "omni": true,
+        "water_penalty": false,
+        "negate_fall": true
+      },
+      "tuning": {
+        "flying_multiplier": 0.75,
+        "water_multiplier": 0.25,
+        "air_base_jump": 0.275,
+        "air_factor": 0.05,
+        "air_factor_hover": 0.03,
+        "air_floor": 0.02,
+        "inertia_damping": 0.5,
+        "ramp_per_tick": 0.2,
+        "run_ticks_max": 100,
+        "run_motion": 0.1
+      },
+      "gear": {
+        "vis_discount": 4,
+        "runic_charge": 0,
+        "warp": 0,
+        "tier": 2,
+        "self_repair_ticks": 0
+      },
+      "trails": [
+        {
+          "particle": "minecraft:soul_fire_flame",
+          "every": 3,
+          "min_motion": 0.1,
+          "vertical_weight": 0.5
+        }
+      ],
+      "powers": {
+        "ghost": {
+          "sneak_ticks": 20,
+          "radius": 16.0,
+          "every": 10
+        }
+      }
+    }
+  }
+}

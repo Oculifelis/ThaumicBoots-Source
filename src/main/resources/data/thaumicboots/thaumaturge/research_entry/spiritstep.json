@@ -1,0 +1,56 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.spiritstep.title",
+  "parents": [
+    "thaumicboots:core"
+  ],
+  "column": 1,
+  "row": 2,
+  "icons": [
+    "thaumicboots:spiritstep_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.spiritstep.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.spiritstep.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/spiritstep_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

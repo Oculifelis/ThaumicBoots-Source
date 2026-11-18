@@ -1,0 +1,51 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 75
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumaturge:traveller_boots",
+  "components": [
+    "minecraft:firework_rocket",
+    "minecraft:lime_dye",
+    "minecraft:book",
+    "minecraft:firework_rocket",
+    "minecraft:iron_sword",
+    "minecraft:jack_o_lantern",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:gelum"
+        }
+      }
+    },
+    "minecraft:spruce_sapling"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "thaumicboots:seasonal_boots"
+  },
+  "result": {
+    "id": "thaumicboots:season_boots"
+  }
+}

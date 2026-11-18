@@ -1,0 +1,71 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "electromagictools"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicexploration"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.explorations_emt_compat.title",
+  "parents": [
+    "thaumicboots:core",
+    "thaumicboots:explorations_core",
+    "thaumicboots:emt_core"
+  ],
+  "column": -3,
+  "row": -2,
+  "icons": [
+    "thaumicboots:electric_meteor_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.explorations_emt_compat.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.explorations_emt_compat.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/electric_comet_boots",
+        "thaumicboots:infusion/nano_comet_boots",
+        "thaumicboots:infusion/quantum_comet_boots",
+        "thaumicboots:infusion/electric_meteor_boots",
+        "thaumicboots:infusion/nano_meteor_boots",
+        "thaumicboots:infusion/quantum_meteor_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,24 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumaturge:ingot_thaumium",
+  "research": {
+    "entry": "thaumicboots:core"
+  },
+  "result": {
+    "id": "thaumicboots:arcanium_lens"
+  }
+}

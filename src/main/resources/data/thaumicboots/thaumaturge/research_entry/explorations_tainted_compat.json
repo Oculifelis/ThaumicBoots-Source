@@ -1,0 +1,67 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicexploration"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.explorations_tainted_compat.title",
+  "parents": [
+    "thaumicboots:explorations_core",
+    "thaumicboots:tainted_core",
+    "thaumicboots:core"
+  ],
+  "column": 3,
+  "row": -2,
+  "icons": [
+    "thaumicboots:void_meteor_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.explorations_tainted_compat.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.explorations_tainted_compat.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/void_meteor_boots",
+        "thaumicboots:infusion/void_comet_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

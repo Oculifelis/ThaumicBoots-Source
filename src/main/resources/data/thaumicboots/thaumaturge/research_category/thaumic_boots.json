@@ -1,0 +1,29 @@
+{
+  "background": "thaumic_boots:textures/gui/research_back.png",
+  "formula": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 5
+    }
+  ],
+  "icon": "thaumaturge:textures/item/traveller_boots.png",
+  "index": 15,
+  "overlay_background": "thaumaturge:textures/gui/gui_research_back_over.png",
+  "required_research": "thaumaturge:first_steps"
+}

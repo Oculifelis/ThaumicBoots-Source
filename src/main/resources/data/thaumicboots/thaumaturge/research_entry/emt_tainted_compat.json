@@ -1,0 +1,68 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "electromagictools"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.emt_tainted_compat.title",
+  "parents": [
+    "thaumicboots:tainted_core",
+    "thaumicboots:emt_core",
+    "thaumicboots:core"
+  ],
+  "column": 0,
+  "row": 3,
+  "icons": [
+    "thaumicboots:electric_void_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.emt_tainted_compat.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.emt_tainted_compat.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/electric_void_boots",
+        "thaumicboots:infusion/nano_void_boots",
+        "thaumicboots:infusion/quantum_void_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

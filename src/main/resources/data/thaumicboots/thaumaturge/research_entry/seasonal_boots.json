@@ -1,0 +1,59 @@
+{
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.seasonal_boots.title",
+  "parents": [
+    "thaumicboots:core",
+    "thaumaturge:infusion"
+  ],
+  "column": 2,
+  "row": 0,
+  "icons": [
+    "thaumicboots:season_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.seasonal_boots.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.seasonal_boots.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/season_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:gelum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    }
+  ],
+  "complexity": 2
+}

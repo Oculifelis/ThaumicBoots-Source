@@ -1,0 +1,69 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fieldframe_arcana"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumicexploration"
+    }
+  ],
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.blastcatch.title",
+  "parents": [
+    "thaumicboots:groundline",
+    "thaumicboots:explorations_core"
+  ],
+  "column": -5,
+  "row": -2,
+  "icons": [
+    "thaumicboots:blastcatch_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.blastcatch.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.blastcatch.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/blastcatch_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

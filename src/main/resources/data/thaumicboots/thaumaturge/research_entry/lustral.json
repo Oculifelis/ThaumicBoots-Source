@@ -1,0 +1,51 @@
+{
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.lustral.title",
+  "parents": [
+    "thaumicboots:seasonal_boots",
+    "thaumaturge:bath_salts"
+  ],
+  "column": 2,
+  "row": -1,
+  "icons": [
+    "thaumicboots:lustral_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.lustral.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.lustral.stage_1",
+      "recipes": [
+        "thaumicboots:infusion/lustral_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "electromagictools"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "taintedmagic"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 75
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:arcanium_lens",
+  "components": [
+    "#thaumicboots:inputs/voidwalker_boots",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:salis_mundus",
+    "#thaumicboots:inputs/electric_boots",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 0,
+  "research": {
+    "entry": "thaumicboots:emt_tainted_compat"
+  },
+  "result": {
+    "id": "thaumicboots:electric_void_boots"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "occultism"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 75
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumicboots:caelum",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:arcanium_lens",
+  "components": [
+    "occultism:silver_boots",
+    "thaumaturge:salis_mundus",
+    "occultism:spirit_attuned_gem",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:spiritus"
+        }
+      }
+    },
+    "thaumaturge:traveller_boots",
+    "thaumaturge:salis_mundus",
+    "occultism:otherworld_essence",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:tenebrae"
+        }
+      }
+    }
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumicboots:spiritstep"
+  },
+  "result": {
+    "id": "thaumicboots:spiritstep_boots"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "category": "thaumicboots:thaumic_boots",
+  "name": "research.thaumicboots.unique_boots.title",
+  "parents": [
+    "thaumicboots:core"
+  ],
+  "column": -2,
+  "row": 0,
+  "icons": [
+    "thaumicboots:slow_boots"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumicboots.unique_boots.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumicboots.unique_boots.stage_1",
+      "recipes": [
+        "thaumicboots:crucible/slow_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 5
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "floraferox"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumicboots:tabernus",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 25
+    }
+  ],
+  "catalyst": "thaumicboots:season_boots",
+  "components": [
+    "floraferox:leafguard_boots",
+    "#floraferox:herbs",
+    "floraferox:ember_graft",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:herba"
+        }
+      }
+    },
+    "minecraft:bone_block",
+    "#floraferox:herbs",
+    "floraferox:rime_graft",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:victus"
+        }
+      }
+    }
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumicboots:verdant"
+  },
+  "result": {
+    "id": "thaumicboots:verdant_boots"
+  }
+}
